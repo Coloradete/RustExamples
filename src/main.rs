@@ -23,6 +23,9 @@ mod traits_example;
 mod into_test;
 mod drop_test;
 mod opeartor_overloading;
+mod static_dispatch_test;
+mod dynamic_dispatch_test;
+mod vectors_of_different_types;
 
 fn main()
 {
@@ -49,5 +52,8 @@ fn main()
     // traits_example::call_traits_02();
     // into_test::call_into_test();
     // drop_test::call_drop_test();
-    opeartor_overloading::call_operator_overloading();
+    // opeartor_overloading::call_operator_overloading();
+    // static_dispatch_test::call_static_dispatch_test();
+    // dynamic_dispatch_test::call_dynamic_dispatch_test();
+    vectors_of_different_types::call_vectors_of_different_types();
 }

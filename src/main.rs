@@ -26,6 +26,7 @@ mod opeartor_overloading;
 mod static_dispatch_test;
 mod dynamic_dispatch_test;
 mod vectors_of_different_types;
+mod ownership_test;
 
 fn main()
 {
@@ -55,5 +56,6 @@ fn main()
     // opeartor_overloading::call_operator_overloading();
     // static_dispatch_test::call_static_dispatch_test();
     // dynamic_dispatch_test::call_dynamic_dispatch_test();
-    vectors_of_different_types::call_vectors_of_different_types();
+    // vectors_of_different_types::call_vectors_of_different_types();
+    ownership_test::call_ownership_test();
 }

@@ -22,11 +22,16 @@ mod higher_order_functions;
 mod traits_example;
 mod into_test;
 mod drop_test;
-mod opeartor_overloading;
+mod operator_overloading;
 mod static_dispatch_test;
 mod dynamic_dispatch_test;
 mod vectors_of_different_types;
 mod ownership_test;
+mod borrowing_test;
+mod lifetime_test;
+mod reference_counted_variables_test;
+mod atomic_reference_counted_variable_test;
+mod circular_references_test;
 
 fn main()
 {
@@ -57,5 +62,9 @@ fn main()
     // static_dispatch_test::call_static_dispatch_test();
     // dynamic_dispatch_test::call_dynamic_dispatch_test();
     // vectors_of_different_types::call_vectors_of_different_types();
-    ownership_test::call_ownership_test();
+    // ownership_test::call_ownership_test();
+    // borrowing_test::call_borrowing_test();
+    // lifetime_test::call_lifetime_test();
+    // reference_counted_variables_test::reference_counted_variable_call();
+    atomic_reference_counted_variable_test::call_arcv_test();
 }

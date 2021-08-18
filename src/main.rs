@@ -66,5 +66,6 @@ fn main()
     // borrowing_test::call_borrowing_test();
     // lifetime_test::call_lifetime_test();
     // reference_counted_variables_test::reference_counted_variable_call();
-    atomic_reference_counted_variable_test::call_arcv_test();
+    // atomic_reference_counted_variable_test::call_arcv_test();
+    circular_references_test::call_circular_references_test();
 }

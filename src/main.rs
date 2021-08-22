@@ -32,6 +32,8 @@ mod lifetime_test;
 mod reference_counted_variables_test;
 mod atomic_reference_counted_variable_test;
 mod circular_references_test;
+mod threads_test;
+mod creating_tests_example;
 
 fn main()
 {
@@ -67,5 +69,6 @@ fn main()
     // lifetime_test::call_lifetime_test();
     // reference_counted_variables_test::reference_counted_variable_call();
     // atomic_reference_counted_variable_test::call_arcv_test();
-    circular_references_test::call_circular_references_test();
+    // circular_references_test::call_circular_references_test();
+    threads_test::call_thread_test();
 }
